@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #202020;
+  color: #fff;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: thin;
+  margin: 0 20px;
+}
+
+nav a:hover {
+  color: #ccc;
+  transition: 0.7s;
+}
+nav a.nav-active {
+  color: #ccc;
+}
+.pointer {
+  cursor: pointer;
+}
