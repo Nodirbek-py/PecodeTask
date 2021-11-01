@@ -27,7 +27,7 @@ const characterSlice = createSlice({
       state.page += 1;
     },
     filter: (state, action) => {
-      state.posts.results = state.characters.results.sort((a, b) =>
+      state.posts.results = state.posts.results.sort((a, b) =>
         a[action.payload] > b[action.payload]
           ? 1
           : b[action.payload] > a[action.payload]
