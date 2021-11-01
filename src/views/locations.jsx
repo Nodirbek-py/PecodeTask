@@ -26,17 +26,17 @@ const Locations = () => {
         {/* Head of table and filtering */}
         <Row>
           <Cell>
-            <Text p onClick={() => locationActions.filter("name")}>
+            <Text p onClick={() => dispatch(locationActions.filter("name"))}>
               Name
             </Text>
           </Cell>
           <Cell>
-            <Text p onClick={() => locationActions.filter("type")}>
+            <Text p onClick={() => dispatch(locationActions.filter("type"))}>
               Type
             </Text>
           </Cell>
           <Cell>
-            <Text p onClick={() => locationActions.filter("dimension")}>
+            <Text p onClick={() => dispatch(locationActions.filter("dimension"))}>
               Dimension
             </Text>
           </Cell>

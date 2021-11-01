@@ -26,7 +26,7 @@ const Episode = () => {
         {/* Head of table and filtering */}
         <Row>
           <Cell style={{ width: "100%" }}>
-            <Text p onClick={() => episodeActions.filter("name")}>
+            <Text p onClick={() => dispatch(episodeActions.filter("name"))}>
               Name
             </Text>
           </Cell>
